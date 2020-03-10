@@ -1,0 +1,47 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#qui-je-suis{
+    color: white;
+    background-color: #DFC0AF;
+    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+
+}
+
+#ce-que-je-fais{
+    background-color: #2B3942;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#ce-que-je-veux{
+    background-color:#D8B684;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mes-projets{
+    background-color:#734E40;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titre{
+    font-family: 'Dancing Script', cursive;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.texte{
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
