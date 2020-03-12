@@ -3,26 +3,44 @@ html,body{
     padding: 0%;
 }
 
-#qui-je-suis{
+img{
+    line-height: 0;
+    vertical-align: bottom;
+}
+
+#qui-je-suis .section_content{
     color: white;
     background-color: #DFC0AF;
     font-family: roboto;
     font-family: 'Roboto', sans-serif;
-    margin-top: 0%;
-
+}
+#qui-je-suis{
+    background-image: url("img/photo_amelie_dieppois.jpg");
+    background-size: cover;
 }
 
-#ce-que-je-fais{
+#ce-que-je-fais .section_content{
     background-color: #2B3942;
     color: white;
     font-family: 'Roboto', sans-serif;
 
 }
+#ce-que-je-fais{
+    background-image: url("img/mock_up_illustration_goodflix.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#ce-que-je-veux{
+
+#ce-que-je-veux .section_content{
     background-color:#D8B684;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+#ce-que-je-veux{
+    background-image: url("img/mock_up_carte_de_visite.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #mes-projets{
@@ -31,17 +49,51 @@ html,body{
     font-family: 'Roboto', sans-serif;
 }
 
+#contact{
+    background-color: #2B3942;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 .titre{
     font-family: 'Dancing Script', cursive;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 5%;
+    margin-bottom: 0%;
     text-align: center;
+    font-size: 70px;
+    padding-bottom: 10%;
 }
 
 .texte{
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     margin-right: 5%;
     margin-top: 5%;
     margin-left: 5%;
+    font-size: 25px;
 }
+
+.logo_amelie_dieppois{
+    width: 40%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 10%;
+}
+
+.section_content {
+    padding: 16em 5em;
+  }
+
+@media screen and (min-width: 940px) {
+    section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    section:nth-child(even) .section_content {
+        grid-column: 2 / -1;
+      }
+    }
+    
+    
