@@ -10,13 +10,15 @@ img{
 
 #qui-je-suis .section_content{
     color: white;
-    background-color: #DFC0AF;
     font-family: roboto;
     font-family: 'Roboto', sans-serif;
+    background-color: #DFC0AF;
 }
+
 #qui-je-suis{
-    background-image: url("img/photo_amelie_dieppois.jpg");
-    background-size: cover;
+    background-image: url("photo_amelie_dieppois1.jpg");
+    
+
 }
 
 #ce-que-je-fais .section_content{
@@ -49,7 +51,7 @@ img{
     font-family: 'Roboto', sans-serif;
 }
 
-#contact{
+.contact{
     background-color: #2B3942;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -66,12 +68,16 @@ img{
     padding-bottom: 10%;
 }
 
+.titre_intermediaire{
+    font-family: fantasy;
+}
+
 .texte{
     margin-bottom: 0%;
     margin-right: 5%;
     margin-top: 5%;
     margin-left: 5%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .logo_amelie_dieppois{
@@ -83,8 +89,14 @@ img{
 }
 
 .section_content {
-    padding: 16em 5em;
+    padding: 10em 5em;
   }
+
+.projets_amelie_dieppois {
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
 
 @media screen and (min-width: 940px) {
     section {
@@ -95,5 +107,6 @@ img{
         grid-column: 2 / -1;
       }
     }
+
     
     
