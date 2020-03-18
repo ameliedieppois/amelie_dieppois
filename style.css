@@ -15,34 +15,16 @@ img{
     background-color: #DFC0AF;
 }
 
-#qui-je-suis{
-    background-image: url("photo_amelie_dieppois1.jpg");
-    
-
-}
-
 #ce-que-je-fais .section_content{
     background-color: #2B3942;
     color: white;
     font-family: 'Roboto', sans-serif;
 
 }
-#ce-que-je-fais{
-    background-image: url("img/mock_up_illustration_goodflix.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
 #ce-que-je-veux .section_content{
     background-color:#D8B684;
     color: white;
     font-family: 'Roboto', sans-serif;
-}
-#ce-que-je-veux{
-    background-image: url("img/mock_up_carte_de_visite.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 #mes-projets{
@@ -51,7 +33,11 @@ img{
     font-family: 'Roboto', sans-serif;
 }
 
-.contact{
+#portfolio{
+    background-color:#734E40;
+}
+
+#contact{
     background-color: #2B3942;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -69,7 +55,10 @@ img{
 }
 
 .titre_intermediaire{
-    font-family: fantasy;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-align: center;
+
 }
 
 .texte{
@@ -92,21 +81,97 @@ img{
     padding: 10em 5em;
   }
 
+
+#photo_amelie_dieppois{
+    background-image: url("img/photo_amelie_dieppois copie.jpg");
+    background-size: cover;
+}
 .projets_amelie_dieppois {
     width: 100%;
     padding-top: 50%;
     padding-bottom: 50%;
 }
 
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  article img {
+    order: -1;
+  }
+  
+  main {
+    box-shadow: -1px -1px 0 #ccc;
+  }
+  article {
+    padding: 1em;
+    box-shadow: 1px 1px 0 #ccc;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  h1 ~ p {
+    margin-top: 0;
+  }
+
+.titre_portfolio{
+    color: white;
+}
+
+.logo_réseaux_sociaux{
+    width: 15;
+}
 @media screen and (min-width: 940px) {
-    section {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+    body {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
-    section:nth-child(even) .section_content {
-        grid-column: 2 / -1;
-      }
+    #qui-je-suis {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .photo_amelie_dieppois{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #ce-que-je-fais{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #ce-que-je-fais1{
+        grid-column: 2;
+        grid-row: 2;
+       background-image: url("img/mock_up_illustration_goodflix.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+   }
+    #ce-que-je-veux{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    #ce-que-je-veux1{
+        background-image: url("img/mock_up_carte_de_visite.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #mes-projets{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    #portfolio{
+        grid-column: 2;
+        grid-row: 4;
     }
 
-    
-    
+    footer{
+        display: initial;
+    }
+}
+
