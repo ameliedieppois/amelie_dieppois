@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+}
+.titre{
+    font-family: 'Dancing Script', cursive;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 10%;
+    color: #DFC0AF;
+    
+}
+.titre_intermediaire{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #D8B684;
+    
+}
+.texte{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+#credits{
+    background-color: #2B3942;
+    padding: 5%;
+}
+
+a{
+    text-decoration: solid;
+    color: white;
+    }
+    a:hover{
+    color: #DFC0AF
+    }
+
