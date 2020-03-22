@@ -127,7 +127,7 @@ img{
 }
 
 .logo_réseaux_sociaux{
-    width: 15;
+    width: 15%;
 }
 a{
     text-decoration: solid;
@@ -176,6 +176,13 @@ a{
     #portfolio{
         grid-column: 2;
         grid-row: 4;
+    }
+    #contact1{
+        grid-column: 2;
+        grid-row: 5;
+        background-image: url("img/contact.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     
